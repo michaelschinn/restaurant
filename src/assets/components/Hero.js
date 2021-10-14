@@ -25,11 +25,11 @@ export default function Hero()
                       </div>
                       <a className="carousel-control-prev" href="#hero" role="button" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Previous</span>
+                        <span className="sr-only display-6">Previous</span>
                       </a>
                       <a className="carousel-control-next" href="#hero" role="button" data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="sr-only">Next</span>
+                        <span className="sr-only display-6">Next</span>
                       </a>
                     </div>
                 </article>
