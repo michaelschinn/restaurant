@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cursive{
+  font-family: 'Ephesis', cursive;
+}
+
+header, main{
+  background: rgb(27,133,131); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(27,133,131,1) 0%, rgba(135,198,203,1) 33%, rgba(135,198,203,1) 66%, rgba(27,133,131,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(27,133,131,1) 0%,rgba(135,198,203,1) 33%,rgba(135,198,203,1) 66%,rgba(27,133,131,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(27,133,131,1) 0%,rgba(135,198,203,1) 33%,rgba(135,198,203,1) 66%,rgba(27,133,131,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b8583', endColorstr='#1b8583',GradientType=1 ); /* IE6-9 */
+
+}
+
+.title1, .title2{
+  color:#1b8583;
+  position: relative;
+}
+.title1{
+  top:20px
+}
+.title2{
+  top:-20px
+}
+
+#hero-image-1, #hero-image-2,#hero-image-3{
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  height: fit-content;
+}
+#hero-image-1 span, #hero-image-2 span,#hero-image-3 span{
+  max-width: 800px;
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+}
+
+.bg-tint{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.25);
+  z-index: 0;
+}
+
+.chef{
+  background-image: url('../images/chef.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 10vw;
+  height:10vw;
+}
+.text-shadow{
+  text-shadow: 3px 3px 10px rgba(0,0,0,.5);
+}
+.text-shadow2{
+  text-shadow: 2px 2px 5px rgba(0,0,0,.5);
+}
+#hero-image-1{
+  background-image: url('../images/hero1-Image.jpg');
+  
+}
+#hero-image-2{
+  background-image: url('../images/hero2-Image.jpg');
+}
+#hero-image-3{
+  background-image: url('../images/hero3-Image.jpg');
+}
+#hero{
+  border-bottom:24px solid  rgba(32,137,133,.75);
+}
+nav{
+  background-color: rgba(32,137,133,.75);
+}
+.mapouter{
+  position: relative; text-align: right; height: 400px; width: 400px; display:inline-block;
+}
+.gmap_canvas {overflow: hidden; background: none!important; height: 400px; width: 400px;}

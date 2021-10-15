@@ -5,8 +5,10 @@ export default function Header()
 {
     return( 
         <>
-            <header>
-                <h1>Header Image Goes Here</h1>
+            <header className="text-center position-relative">
+                <div className="cursive display-1 title1">Michelangelos</div>
+                <div className="chef d-inline-block m-0"></div>
+                <div className="cursive display-1 title2">Kitchen</div>
             </header>
         </>
     );

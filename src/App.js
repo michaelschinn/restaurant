@@ -8,7 +8,7 @@ import Footer from './assets/components/Footer';
 
 function App() {
   return (
-    <div id="App" className="container-fluid">
+    <div id="App" className="container-fluid p-0">
       <Header />
       <Navigation />
       <Hero />
