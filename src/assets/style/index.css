@@ -36,13 +36,13 @@ header, main{
   top:-20px
 }
 
-#hero-image-1, #hero-image-2,#hero-image-3{
+#hero-image-1, #hero-image-2,#hero-image-3,#hero-image-4{
   background-position: center;
   background-size: cover;
   min-height: 50vh;
   height: fit-content;
 }
-#hero-image-1 span, #hero-image-2 span,#hero-image-3 span{
+#hero-image-1 span, #hero-image-2 span,#hero-image-3 span,#hero-image-4 span{
   max-width: 800px;
   display: inline-block;
   position: relative;
@@ -82,6 +82,9 @@ header, main{
 }
 #hero-image-3{
   background-image: url('../images/hero3-Image.jpg');
+}
+#hero-image-4{
+  background-image: url('../images/hero4-Image.jpg');
 }
 #hero{
   border-bottom:24px solid  rgba(32,137,133,.75);

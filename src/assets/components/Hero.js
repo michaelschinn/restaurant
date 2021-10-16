@@ -12,6 +12,7 @@ export default function Hero()
                         <li data-bs-target="#hero" data-bs-slide-to="0" className="active"></li>
                         <li data-bs-target="#hero" data-bs-slide-to="1"></li>
                         <li data-bs-target="#hero" data-bs-slide-to="2"></li>
+                        <li data-bs-target="#hero" data-bs-slide-to="3"></li>
                       </ol>
                       <div className="carousel-inner">
                             <div className="carousel-item active">
@@ -32,6 +33,14 @@ export default function Hero()
                             </div>
                             <div className="carousel-item">
                                 <div id="hero-image-3" className=" text-center py-5 position-relative">
+                                    <span className="text-white display-1 text-shadow mb-4 cursive">Eggy Tomatoes & Toast</span><br />
+                                    <span className="display-6 text-white px-5 text-shadow2 mb-4">Donec ultrices ligula quis velit tristique posuere. Sed dignissim dui vel quam por.</span><br />
+                                    <span className="display-4 text-white px-5 text-shadow2 cursive">$12.99</span>
+                                    <div className="bg-tint"></div>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div id="hero-image-4" className=" text-center py-5 position-relative">
                                     <span className="text-white display-1 text-shadow mb-4 cursive">Eggy Tomatoes & Toast</span><br />
                                     <span className="display-6 text-white px-5 text-shadow2 mb-4">Donec ultrices ligula quis velit tristique posuere. Sed dignissim dui vel quam por.</span><br />
                                     <span className="display-4 text-white px-5 text-shadow2 cursive">$12.99</span>
